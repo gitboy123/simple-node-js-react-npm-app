@@ -24,7 +24,7 @@ pipeline {
                echo 'deliver'
             }
         }
-        stabe(deploy){
+        stage(deploy){
             steps {
                 echo "deploy"
             }
