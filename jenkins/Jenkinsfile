@@ -15,17 +15,17 @@ pipeline {
         }
         stage('Test') {
             steps {
-                echo 'test...........................'
+                echo 'test...........................................'
             }
         }
         stage('Deliver') { 
             steps {
-               echo 'deliver'
+               echo 'deliver...........................................'
             }
         }
         stage(Deploy){
             steps {
-                echo "deploy"
+                echo "deploy.........................................."
             }
         }
     }
